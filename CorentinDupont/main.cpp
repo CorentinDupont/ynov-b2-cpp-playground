@@ -8,7 +8,7 @@ using namespace std;
 void hr_2_InputAndOutput();
 
 int main() {
-    hr_2_InputAndOutput();
+
     return 0;
 }
 
@@ -28,5 +28,15 @@ void hr_2_InputAndOutput(){
     }
     sum = a+b+c;
     cout << sum << endl;
+}
+
+void hr_3_BasicDataType(){
+    int a;
+    long b;
+    char c;
+    float d;
+    double e;
+    scanf("%d %ld %c %f %lf", &a, &b, &c, &d, &e);
+    printf("%d\n%ld\n%c\n%.2f\n%.5lf", a, b, c, d, e);
 }
 
