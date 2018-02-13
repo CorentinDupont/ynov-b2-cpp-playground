@@ -14,9 +14,10 @@ int max_of_four(int a, int b, int c, int d);
 void hr_7_Pointer();
 void hr_7_update(int *a,int *b);
 void hr_8_ArrayIntroduction(int n);
+void hr_9_VariableSizedArray();
 
 int main() {
-    hr_8_ArrayIntroduction(10);
+    hr_9_VariableSizedArray();
     return 0;
 }
 
@@ -155,5 +156,26 @@ void hr_8_ArrayIntroduction(int n){
             cout << someIntegers[j] << endl;
         }
     }
+}
 
+void hr_9_VariableSizedArray(){
+    //Generate array with random integer wich will correspond to the size of other arrays
+    int beginRandomSize = rand() % 100 + 1;
+    int *randomSizeArray = new int[beginRandomSize]; //Première façon de faire un tableau à taille variable.
+    for(int i=0 ; i<beginRandomSize ; i++){
+        randomSizeArray[i] = rand() % 10 + 1;
+    }
+
+    //Création des vecteurs, correspondant à des tableaux de tailles variables.
+    for(int i=0 ; i<beginRandomSize ; i++){
+        cout << "création du vecteur " << i+1 << " de taille " << randomSizeArray[i] << endl;
+        vector<int> aVector(randomSizeArray[i]);
+        for(int j=0; j<randomSizeArray[i]; j++){
+            aVector[j] = rand() % 100 + 1;
+            cout << aVector[j] << " ";
+        }
+        cout << endl;
+    }
+
+    delete [] randomSizeArray;//Besoin de le supprimer après utilisation
 }
