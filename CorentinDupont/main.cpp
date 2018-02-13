@@ -11,9 +11,11 @@ void hr_4_ConditionalStatement();
 void hr_5_ForLoop();
 void hr_6_Function();
 int max_of_four(int a, int b, int c, int d);
+void hr_7_Pointer();
+void hr_7_update(int *a,int *b);
 
 int main() {
-    hr_6_Function();
+    hr_7_Pointer();
     return 0;
 }
 
@@ -120,4 +122,20 @@ int max_of_four(int a, int b, int c, int d){
     }
 
     cout << max << endl;
+}
+
+void hr_7_Pointer(){
+    int a, b;
+    int *pa = &a, *pb = &b;
+
+    scanf("%d %d", &a, &b);
+    hr_7_update(pa, pb);
+    printf("%d\n%d", a, b);
+}
+
+void hr_7_update(int *a,int *b) {
+    // Complete this function
+    int aTemp = *a;
+    *a = *a + *b;
+    *b = abs(aTemp - *b);
 }
