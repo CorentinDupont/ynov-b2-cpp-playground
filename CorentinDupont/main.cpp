@@ -13,9 +13,10 @@ void hr_6_Function();
 int max_of_four(int a, int b, int c, int d);
 void hr_7_Pointer();
 void hr_7_update(int *a,int *b);
+void hr_8_ArrayIntroduction(int n);
 
 int main() {
-    hr_7_Pointer();
+    hr_8_ArrayIntroduction(10);
     return 0;
 }
 
@@ -138,4 +139,21 @@ void hr_7_update(int *a,int *b) {
     int aTemp = *a;
     *a = *a + *b;
     *b = abs(aTemp - *b);
+}
+
+void hr_8_ArrayIntroduction(int n){
+    if(n >= 1 && n <= 1000){
+        int someIntegers[n];
+        cout << "standard order" << endl;
+        for (int i=0; i<n; i++){
+            someIntegers[i] = rand() % 100 + 1;
+            cout << someIntegers[i] << endl;
+        }
+
+        cout << "reverse order" << endl;
+        for(int j=n; j>=0; j--){
+            cout << someIntegers[j] << endl;
+        }
+    }
+
 }
