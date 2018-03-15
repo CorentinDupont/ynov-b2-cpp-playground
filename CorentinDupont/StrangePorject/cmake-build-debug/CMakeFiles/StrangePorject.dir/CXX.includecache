@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.cpp
+iostream
+-
+Game.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.h
+iostream
+-
+vector
+-
+cmake-build-debug/Player.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Player.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.cpp
+Direction.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Player.cpp
+iostream
+-
+Player.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Player.h
+Direction.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Player.h
+Direction.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/main.cpp
+iostream
+-
+Game.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.h
+
