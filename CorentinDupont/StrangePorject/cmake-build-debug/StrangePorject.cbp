@@ -88,6 +88,12 @@
 		<Unit filename="D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.h">
 			<Option target="StrangePorject"/>
 		</Unit>
+		<Unit filename="D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.cpp">
+			<Option target="StrangePorject"/>
+		</Unit>
+		<Unit filename="D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.h">
+			<Option target="StrangePorject"/>
+		</Unit>
 		<Unit filename="D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.cpp">
 			<Option target="StrangePorject"/>
 		</Unit>

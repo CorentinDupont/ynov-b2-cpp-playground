@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.cpp" "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/CMakeFiles/StrangePorject.dir/Coin.cpp.obj"
   "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.cpp" "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/CMakeFiles/StrangePorject.dir/Direction.cpp.obj"
   "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.cpp" "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/CMakeFiles/StrangePorject.dir/Game.cpp.obj"
   "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Player.cpp" "D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/CMakeFiles/StrangePorject.dir/Player.cpp.obj"

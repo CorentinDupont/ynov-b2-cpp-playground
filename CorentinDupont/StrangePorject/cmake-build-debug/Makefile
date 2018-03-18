@@ -122,6 +122,33 @@ StrangePorject/fast:
 	$(MAKE) -f CMakeFiles\StrangePorject.dir\build.make CMakeFiles/StrangePorject.dir/build
 .PHONY : StrangePorject/fast
 
+Coin.obj: Coin.cpp.obj
+
+.PHONY : Coin.obj
+
+# target to build an object file
+Coin.cpp.obj:
+	$(MAKE) -f CMakeFiles\StrangePorject.dir\build.make CMakeFiles/StrangePorject.dir/Coin.cpp.obj
+.PHONY : Coin.cpp.obj
+
+Coin.i: Coin.cpp.i
+
+.PHONY : Coin.i
+
+# target to preprocess a source file
+Coin.cpp.i:
+	$(MAKE) -f CMakeFiles\StrangePorject.dir\build.make CMakeFiles/StrangePorject.dir/Coin.cpp.i
+.PHONY : Coin.cpp.i
+
+Coin.s: Coin.cpp.s
+
+.PHONY : Coin.s
+
+# target to generate assembly for a file
+Coin.cpp.s:
+	$(MAKE) -f CMakeFiles\StrangePorject.dir\build.make CMakeFiles/StrangePorject.dir/Coin.cpp.s
+.PHONY : Coin.cpp.s
+
 Direction.obj: Direction.cpp.obj
 
 .PHONY : Direction.obj
@@ -239,6 +266,9 @@ help:
 	@echo ... StrangePorject
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Coin.obj
+	@echo ... Coin.i
+	@echo ... Coin.s
 	@echo ... Direction.obj
 	@echo ... Direction.i
 	@echo ... Direction.s

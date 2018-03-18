@@ -11,9 +11,12 @@ int main() {
     bool inGame = true;
     string userEntry;
 
+    cout << "-------------------- You need to get all coins ! [O]-------------------" << endl << endl;
+
     //Game Loop
     while(inGame){
         //Ask player for a direction
+        cout << "Let's move your character (P) ! Please choose a direction : [top, right, bottom, left] ";
         cin >> userEntry;
         if(userEntry == "right"){
             game->askPlayerToMoveTo(Right);
@@ -23,6 +26,8 @@ int main() {
             game->askPlayerToMoveTo(Top);
         }else if(userEntry == "bottom"){
             game->askPlayerToMoveTo(Bottom);
+        }else{
+            cout << "wrong direction !";
         }
     }
 

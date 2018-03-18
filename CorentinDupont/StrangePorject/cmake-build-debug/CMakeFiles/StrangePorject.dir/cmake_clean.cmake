@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/StrangePorject.dir/Game.cpp.obj"
   "CMakeFiles/StrangePorject.dir/Player.cpp.obj"
   "CMakeFiles/StrangePorject.dir/Direction.cpp.obj"
+  "CMakeFiles/StrangePorject.dir/Coin.cpp.obj"
   "StrangePorject.pdb"
   "StrangePorject.exe"
   "StrangePorject.exe.manifest"

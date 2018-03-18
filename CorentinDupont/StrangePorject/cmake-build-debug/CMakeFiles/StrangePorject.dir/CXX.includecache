@@ -9,6 +9,8 @@
 D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.cpp
 iostream
 -
+random
+-
 Game.h
 D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/Game.h
 
@@ -17,8 +19,18 @@ iostream
 -
 vector
 -
+list
+-
 cmake-build-debug/Player.h
 D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Player.h
+cmake-build-debug/Coin.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.cpp
+Coin.h
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.h
+
+D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Coin.h
 
 D:/Documents/YNOV/INGESUPB2/LOO-CPP/ynov-b2-cpp-playground/CorentinDupont/StrangePorject/cmake-build-debug/Direction.cpp
 Direction.h

@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = D:\Documents\YNOV\INGESUPB2\LOO-CPP\ynov-b2-cpp-playground\Co
 CMakeFiles/StrangePorject.dir/all:
 	$(MAKE) -f CMakeFiles\StrangePorject.dir\build.make CMakeFiles/StrangePorject.dir/depend
 	$(MAKE) -f CMakeFiles\StrangePorject.dir\build.make CMakeFiles/StrangePorject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\YNOV\INGESUPB2\LOO-CPP\ynov-b2-cpp-playground\CorentinDupont\StrangePorject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target StrangePorject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Documents\YNOV\INGESUPB2\LOO-CPP\ynov-b2-cpp-playground\CorentinDupont\StrangePorject\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target StrangePorject"
 .PHONY : CMakeFiles/StrangePorject.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/StrangePorject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StrangePorject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\YNOV\INGESUPB2\LOO-CPP\ynov-b2-cpp-playground\CorentinDupont\StrangePorject\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\YNOV\INGESUPB2\LOO-CPP\ynov-b2-cpp-playground\CorentinDupont\StrangePorject\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/StrangePorject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Documents\YNOV\INGESUPB2\LOO-CPP\ynov-b2-cpp-playground\CorentinDupont\StrangePorject\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/StrangePorject.dir/rule
