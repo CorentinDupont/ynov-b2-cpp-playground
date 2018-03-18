@@ -7,9 +7,9 @@
 using namespace std;
 
 Game::Game(){
-    Player player;
-    player.coordinate[0] = 0;
-    player.coordinate[1] = 1;
+    player = new Player();
+    player->coordinate[0] = 0;
+    player->coordinate[1] = 0;
 };
 
 void Game::createGameGrid(int newSizeX, int newSizeY) {
@@ -37,7 +37,7 @@ void Game::createGameGrid(int newSizeX, int newSizeY) {
     setGameGrid(newGameGrid);
 }
 int **Game::getGameGrid() {
-
+    return gameGrid;
 }
 
 void Game::setGameGrid(int **newGameGrid) {
@@ -45,12 +45,48 @@ void Game::setGameGrid(int **newGameGrid) {
 }
 
 void Game::displayGameGrid() {
-    for(int x=0; x<sizeX; x++){
-        for(int y=0; y<sizeY; y++){
-            //cout << gameGrid[x][y];
+    for(int y=0; y<sizeY; y++){
+        for(int x=0; x<sizeX; x++){
+            if(x == player->coordinate[0] && y == player->coordinate[1]){
+                gameGrid[x][y] = 1;
+            }else{
+                gameGrid[x][y] = 0;
+            }
             printf("%i   ", gameGrid[x][y]);
         }
         cout << endl;
+    }
+    cout << endl;
+}
+
+//Determine if the player can move after getting user input
+void Game::askPlayerToMoveTo(Dir direction) {
+    switch(direction){
+        case Right:
+            if(player->coordinate[0]<sizeX-1){
+                player->movePlayerTo(direction);
+                displayGameGrid();
+            }
+            break;
+        case Bottom:
+            if(player->coordinate[1]<sizeY-1){
+                player->movePlayerTo(direction);
+                displayGameGrid();
+            }
+            break;
+        case Left:
+            if(player->coordinate[0]>0){
+                player->movePlayerTo(direction);
+                displayGameGrid();
+            }
+            break;
+        case Top:
+            if(player->coordinate[1]>0){
+                player->movePlayerTo(direction);
+                displayGameGrid();
+            }
+            break;
+
     }
 }
 

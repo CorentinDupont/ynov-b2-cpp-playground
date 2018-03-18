@@ -13,16 +13,16 @@ Player::Player() = default;
 void Player::movePlayerTo(Dir direction) {
     switch(direction){
         case Right:
-            cout << "right" << endl;
+            coordinate[0]++;
             break;
         case Bottom:
-            cout << "bottom" << endl;
+            coordinate[1]++;
             break;
         case Left:
-            cout << "left" << endl;
+            coordinate[0]--;
             break;
         case Top:
-            cout << "top" << endl;
+            coordinate[1]--;
             break;
 
     }

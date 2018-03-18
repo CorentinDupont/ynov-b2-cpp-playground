@@ -9,18 +9,20 @@ int main() {
     game->displayGameGrid();
 
     bool inGame = true;
-    while(inGame)
-    {
-        string userEntry;
-        scanf("%s", &userEntry);
-        if(userEntry.compare("right") == 0){
-            game->player.movePlayerTo(Right);
-        }else if(userEntry.compare("left") == 0){
-            game->player.movePlayerTo(Left);
-        }else if(userEntry.compare("top") == 0){
-            game->player.movePlayerTo(Top);
-        }else if(userEntry.compare("bottom") == 0){
-            game->player.movePlayerTo(Bottom);
+    string userEntry;
+
+    //Game Loop
+    while(inGame){
+        //Ask player for a direction
+        cin >> userEntry;
+        if(userEntry == "right"){
+            game->askPlayerToMoveTo(Right);
+        }else if(userEntry == "left"){
+            game->askPlayerToMoveTo(Left);
+        }else if(userEntry == "top"){
+            game->askPlayerToMoveTo(Top);
+        }else if(userEntry == "bottom"){
+            game->askPlayerToMoveTo(Bottom);
         }
     }
 

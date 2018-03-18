@@ -13,17 +13,21 @@ using namespace std;
 class Game{
     private:
     int **gameGrid;
-    int sizeX;
-    int sizeY;
+
 
     public:
     Game();
 
+    int sizeX;
+    int sizeY;
     int **getGameGrid();
-    Player player;
+
+    Player *player;
 
     void createGameGrid(int newSizeX, int newSizeY);
     void setGameGrid(int **newGameGrid);
     void displayGameGrid();
+
+    void askPlayerToMoveTo(Dir direction);
 };
 #endif //STRANGEPORJECT_GAME_H
